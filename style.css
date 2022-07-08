@@ -370,7 +370,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,74,1) 50%, rgba(
     text-align: center;
     margin-bottom: 20px;
 }
-#avantaj-heading {
+.avantaj-heading {
 
   text-align: center;
   font-size: 18px;
@@ -378,7 +378,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,74,1) 50%, rgba(
   margin-bottom: 10px;
 
 }
-#avantaj-content {
+.avantaj-content {
 
   text-align: center;
 
@@ -394,14 +394,14 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,74,1) 50%, rgba(
       margin-left: 3%;
       margin-right: 3%;
   }
-  #avantaj-heading {
+  .avantaj-heading {
 
 
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 5px;
   }
-  #avantaj-content {
+  .avantaj-content {
     font-size: 16px;
     line-height: 23px;
     margin-bottom: 20px;
