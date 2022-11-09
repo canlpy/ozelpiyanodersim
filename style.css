@@ -25,12 +25,19 @@ header {
 
 
 @media screen and (max-width: 600px) {
+.hero-button:link {
+  display: none !important;
+}
+
+
   header {
     background-image: url(img/piano-bg3-800w.jpg);
     
     height: 100vh;
     min-height: 65vh;
       background-attachment: initial;
+
+     
 
 
   }
@@ -51,6 +58,21 @@ header {
 a:link, a:active {
   text-decoration: none;
   color: white;
+}
+
+.hero-button:link, .hero-button:visited {
+  font-size: 1.5em;
+  border: 2px solid #FF4500;
+  border-radius: 5px;
+  padding: 8px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #FF4500;
+}
+.hero-button:hover {
+  background-color: black;
 }
 
 h1 {
@@ -224,6 +246,9 @@ header .important-color {
 }
 
 @media screen and (max-width: 600px) {
+
+ 
+
   #nedediler {
     /*
     background-image: url(img/nedediler-arkaplan-mini.jpg);
