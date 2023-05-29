@@ -88,7 +88,7 @@ h2 {
 
 h3 {
   font-family: arial;
-  font-size: 1.2em !important; 
+  font-size: 1.3em !important; 
 }
 
 h4 {
@@ -104,6 +104,13 @@ p {
   font-weight: 400;
   font-size: 1em;
 }
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 1.1em;
+  }
+}
+
 
 header .important-line {
   text-decoration: underline;
