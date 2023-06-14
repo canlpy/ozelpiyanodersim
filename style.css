@@ -102,7 +102,7 @@ h4 {
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: 1.1rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -414,16 +414,16 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,74,1) 50%, rgba(
 .avantaj-heading {
 
   text-align: center;
-  font-size: 18px;
+  
   line-height: 29px;
-  margin-bottom: 10px;
+  margin-bottom: 5%;
 
 }
 .avantaj-content {
 
   text-align: center;
-
-  font-size: 16px;
+  
+  
   }
 
   @media screen and (max-width: 600px) {
