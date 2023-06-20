@@ -2,7 +2,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ozelpiya/public_html/
-    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R style.css $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
     
 
     
