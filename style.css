@@ -169,6 +169,28 @@ header .important-color {
   padding-bottom: 5%;
 }
 
+.ogrenciler-image {
+  margin-right: 2%;
+}
+
+.ogrenciler-image img {
+  max-width: 450px;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  
+
+  .ogrenciler-image img {
+    width: 100%;
+    height: auto;
+    margin-right: 0%;
+
+    
+  }
+
+}
+
 
 
 
@@ -510,12 +532,10 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,74,1) 50%, rgba(
   }
 
   .egitmen-image img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    margin-right: 0%;
-
     
-  }
+}
 
   .egitmen-resume {
     text-indent: 0;
