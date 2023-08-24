@@ -488,7 +488,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,74,1) 50%, rgba(
 }
 
 .egitmen-image img {
-  max-width: 450px;
+  max-width: 300px;
   height: auto;
 }
 
@@ -506,11 +506,15 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,74,1) 50%, rgba(
     margin-left: 3%;
 
     margin-right: 3%;
+    align-items: center;
   }
 
   .egitmen-image img {
     width: 100%;
     height: auto;
+    margin-right: 0%;
+
+    
   }
 
   .egitmen-resume {
