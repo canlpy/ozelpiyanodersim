@@ -169,9 +169,7 @@ header .important-color {
   padding-bottom: 5%;
 }
 
-.ogrenciler-image {
-  margin-right: 2%;
-}
+
 
 .ogrenciler-image img {
   max-width: 450px;
@@ -505,9 +503,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,74,1) 50%, rgba(
 
 
 
-.egitmen-image {
-  margin-right: 2%;
-}
+
 
 .egitmen-image img {
   max-width: 300px;
@@ -519,6 +515,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(66,66,74,1) 50%, rgba(
   font-size: 18px;
   line-height: 29px;
   text-align: justify;
+  margin-left: 3%;
 }
 
 @media screen and (max-width: 600px) {
