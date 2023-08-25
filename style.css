@@ -18,15 +18,34 @@ header {
 
 }
 
-
-
+@media only screen and (min-width : 1224px) {
+.hero-button-mobile:link {
+  display: none !important;
+ }
+}
 
 
 
 
 @media screen and (max-width: 600px) {
-.hero-button:link {
+.hero-button {
   display: none !important;
+}
+.hero-button-mobile:link, .hero-button-mobile:visited {
+    font-size: 1.5em;
+    border: 2px solid #FF4500;
+    border-radius: 5px;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #FF4500;
+  }
+.hero-button-mobile:hover {
+    background-color: black;
+  }
+
 }
 
 
@@ -61,6 +80,12 @@ a:link, a:active {
   color: white;
 }
 
+
+@media only screen and (min-width: 600px) {
+.hero-button-mobile {
+  display: none;
+}
+
 .hero-button:link, .hero-button:visited {
   font-size: 1.5em;
   border: 2px solid #FF4500;
@@ -74,6 +99,8 @@ a:link, a:active {
 }
 .hero-button:hover {
   background-color: black;
+}
+
 }
 
 h1 {
