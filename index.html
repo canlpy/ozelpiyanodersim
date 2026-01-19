@@ -1,723 +1,737 @@
+
 <!DOCTYPE html>
 <html lang="tr" dir="ltr">
-  <head>
-    <title>Evinizde Özel Piyano Dersi - İstanbul Anadolu Yakasında Piyano Dersleri</title>
-    <!-- Meta tags -->
-    <meta charset="utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Evinizde Özel Piyano Dersleri. Can Alpay ile bire bir, Özel Piyano Dersi. İstanbul, Anadolu Yakasındaki bütün ilçelerde."
-    />
+<head>
+  <title>Evinizde Özel Piyano Dersi - İstanbul Anadolu Yakasında Piyano Dersleri</title>
+  <!-- Meta tags -->
+  <meta charset="utf-8" />
 
-    <meta property="og:title" content="Can Alpay ile Özel Piyano Dersleri" />
-    <meta property="og:url" content="https://www.ozelpiyanodersim.com" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Evinizde Özel Piyano Dersleri. Can Alpay ile bire bir, Özel Piyano Dersi. İstanbul, Anadolu Yakasındaki bütün ilçelerde." />
 
-    <meta
-      property="og:description"
-      content="Zorlanmadan, Doğrusuyla, Hızlıca Piyano Öğrenmek için Can Alpay ile evinizde, bire bir, Özel Piyano Dersi. İstanbul, Anadolu Yakasındaki bütün ilçelerde."
-    />
+  <meta property="og:title" content="Can Alpay ile Özel Piyano Dersleri" />
+  <meta property="og:url" content="https://www.ozelpiyanodersim.com" />
 
-    <meta
-      property="og:image"
-      content="https://www.ozelpiyanodersim.com/img/canalpay.webp"
-    />
+  <meta property="og:description"
+    content="Zorlanmadan, Doğrusuyla, Hızlıca Piyano Öğrenmek için Can Alpay ile evinizde, bire bir, Özel Piyano Dersi. İstanbul, Anadolu Yakasındaki bütün ilçelerde." />
 
- 
+  <meta property="og:image" content="https://www.ozelpiyanodersim.com/img/canalpay.webp" />
 
-    
 
-    <!-- inline style critical css-->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
 
+
+
+  <!-- inline style critical css-->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url(img/piano-background.webp);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-attachment: fixed;
+    }
+
+    @media screen and (max-width: 600px) {
       header {
-        height: 100vh;
-        min-height: 500px;
         background-image: url(img/piano-background.webp);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-color: black;
-        background-attachment: fixed;
+        height: 100vh;
+        min-height: 65vh;
+        background-attachment: initial;
       }
 
-      @media screen and (max-width: 600px) {
-        header {
-          background-image: url(img/piano-background.webp);
-          height: 100vh;
-          min-height: 65vh;
-          background-attachment: initial;
-        }
-
-        .container img {
-          width: 150px;
-        }
-      }
-
-      a:link {
-        text-decoration: none;
-        color: white;
-      }
-
-      h1 {
-        font-family: arial;
-        font-size: 3em;
-      }
-
-      h2 {
-        font-family: arial;
-        font-size: 2em;
-      }
-
-      h3 {
-        font-family: arial;
-        font-size: 1.2em !important;
-      }
-
-      p {
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-        font-size: 1rem;
-      }
-
-      header .important-line {
-        text-decoration: underline;
-        color: #ff4500;
-      }
-
-      header .important-color {
-        color: #ff4500;
-      }
-
-      .section-head-white {
-        text-align: center;
-        padding-top: 50px;
-        color: white;
-      }
-
-      .section-head-white hr {
-        display: inline-block;
-        margin-top: 10px;
+      .container img {
         width: 150px;
-        height: 1px;
-        background-color: #ff4500;
-        border-color: #ff4500;
+      }
+    }
+
+    a:link {
+      text-decoration: none;
+      color: white;
+    }
+
+    h1 {
+      font-family: arial;
+      font-size: 3em;
+    }
+
+    h2 {
+      font-family: arial;
+      font-size: 2em;
+    }
+
+    h3 {
+      font-family: arial;
+      font-size: 1.2em !important;
+    }
+
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 1rem;
+    }
+
+    header .important-line {
+      text-decoration: underline;
+      color: #ff4500;
+    }
+
+    header .important-color {
+      color: #ff4500;
+    }
+
+    .section-head-white {
+      text-align: center;
+      padding-top: 50px;
+      color: white;
+    }
+
+    .section-head-white hr {
+      display: inline-block;
+      margin-top: 10px;
+      width: 150px;
+      height: 1px;
+      background-color: #ff4500;
+      border-color: #ff4500;
+    }
+
+    .sticky {
+      display: none;
+    }
+
+    #nedediler {
+      margin-top: 0;
+      background-image: url(img/nedediler-arkaplan.webp);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .video1 {
+      margin-top: 80px;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-bottom: 5%;
+    }
+
+    .video2 {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .nedediler-content {
+      margin-top: 80px;
+      padding-bottom: 50px;
+    }
+
+    .testimonial-box {
+      margin-bottom: 30px;
+      margin-left: 10%;
+      margin-right: 10%;
+      padding: 1% 3% 1% 3%;
+      display: flex;
+      flex-direction: row;
+      background-color: white;
+    }
+
+    .box-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 3%;
+    }
+
+    .box-right {
+      justify-content: center;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    .testimonial-photo img {
+      width: 170px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    .testimonial-text {
+      text-indent: 2em;
+      font-size: 18px;
+      line-height: 29px;
+      text-align: justify;
+      width: 100%;
+    }
+
+    .testimonial-name {
+      font-size: 1.4em;
+      margin-top: 5%;
+      text-align: center;
+    }
+
+    .testimonial-title {
+      text-align: center;
+    }
+
+    @media screen and (max-width: 600px) {
+
+
+
+      #nedediler {
+        background: rgb(64, 64, 64);
+        background: linear-gradient(90deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(66, 66, 74, 1) 50%,
+            rgba(0, 0, 0, 1) 100%);
       }
 
       .sticky {
-        display: none;
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: row;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        z-index: 1;
       }
 
-      #nedediler {
-        margin-top: 0;
-        background-image: url(img/nedediler-arkaplan.webp);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+      .phone-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50vw;
+        padding: 1.5%;
+        background-color: #ff4500;
+        font-size: 1.4em;
       }
 
-      .video1 {
-        margin-top: 80px;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 5%;
-      }
-
-      .video2 {
-        margin-left: 10%;
-        margin-right: 10%;
+      .whatsapp-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50vw;
+        padding: 1.5%;
+        background-color: #128741;
+        font-size: 1.4em;
       }
 
       .nedediler-content {
-        margin-top: 80px;
-        padding-bottom: 50px;
+        margin-top: 5%;
+      }
+
+      .video1 {
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 10%;
+      }
+
+      .video2 {
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 5%;
+        margin-bottom: 10%;
       }
 
       .testimonial-box {
-        margin-bottom: 30px;
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 1% 3% 1% 3%;
-        display: flex;
-        flex-direction: row;
-        background-color: white;
+        flex-direction: column;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 5%;
       }
 
       .box-left {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-left: 3%;
-      }
-
-      .box-right {
-        justify-content: center;
-        margin-left: 5%;
-        margin-right: 5%;
-      }
-
-      .testimonial-photo img {
-        width: 170px;
-        height: auto;
-        border-radius: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 0;
       }
 
       .testimonial-text {
-        text-indent: 2em;
-        font-size: 18px;
-        line-height: 29px;
-        text-align: justify;
-        width: 100%;
-      }
-
-      .testimonial-name {
-        font-size: 1.4em;
-        margin-top: 5%;
-        text-align: center;
-      }
-
-      .testimonial-title {
-        text-align: center;
-      }
-
-      @media screen and (max-width: 600px) {
-
-      
-
-        #nedediler {
-          background: rgb(64, 64, 64);
-          background: linear-gradient(
-            90deg,
-            rgba(0, 0, 0, 1) 0%,
-            rgba(66, 66, 74, 1) 50%,
-            rgba(0, 0, 0, 1) 100%
-          );
-        }
-
-        .sticky {
-          display: flex;
-          display: -webkit-flex;
-          flex-direction: row;
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          color: white;
-          z-index: 1;
-        }
-
-        .phone-box {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
-          width: 50vw;
-          padding: 1.5%;
-          background-color: #ff4500;
-          font-size: 1.4em;
-        }
-
-        .whatsapp-box {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-evenly;
-          width: 50vw;
-          padding: 1.5%;
-          background-color: #128741;
-          font-size: 1.4em;
-        }
-
-        .nedediler-content {
-          margin-top: 5%;
-        }
-
-        .video1 {
-          margin-left: 3%;
-          margin-right: 3%;
-          margin-top: 10%;
-        }
-
-        .video2 {
-          margin-left: 3%;
-          margin-right: 3%;
-          margin-top: 5%;
-          margin-bottom: 10%;
-        }
-
-        .testimonial-box {
-          flex-direction: column;
-          margin-left: 3%;
-          margin-right: 3%;
-          margin-bottom: 5%;
-        }
-
-        .box-left {
-          margin-top: 5%;
-          margin-bottom: 5%;
-          margin-left: 0;
-        }
-
-        .testimonial-text {
-          text-indent: 0;
-          font-size: 16px;
-          line-height: 23px;
-          text-align: left;
-          padding-bottom: 5%;
-        }
-      }
-
-      :root {
-        --blue: #007bff;
-        --indigo: #6610f2;
-        --purple: #6f42c1;
-        --pink: #e83e8c;
-        --red: #dc3545;
-        --orange: #fd7e14;
-        --yellow: #ffc107;
-        --green: #28a745;
-        --teal: #20c997;
-        --cyan: #17a2b8;
-        --white: #fff;
-        --gray: #6c757d;
-        --gray-dark: #343a40;
-        --primary: #007bff;
-        --secondary: #6c757d;
-        --success: #28a745;
-        --info: #17a2b8;
-        --warning: #ffc107;
-        --danger: #dc3545;
-        --light: #f8f9fa;
-        --dark: #343a40;
-        --breakpoint-xs: 0;
-        --breakpoint-sm: 576px;
-        --breakpoint-md: 768px;
-        --breakpoint-lg: 992px;
-        --breakpoint-xl: 1200px;
-        --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
-          Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-          "Noto Color Emoji";
-        --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-          "Liberation Mono", "Courier New", monospace;
-      }
-
-      *,
-      ::after,
-      ::before {
-        box-sizing: border-box;
-      }
-
-      html {
-        font-family: sans-serif;
-        line-height: 1.15;
-        -webkit-text-size-adjust: 100%;
-      }
-
-      header,
-      main,
-      nav {
-        display: block;
-      }
-
-      body {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-          "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #212529;
+        text-indent: 0;
+        font-size: 16px;
+        line-height: 23px;
         text-align: left;
-        background-color: #fff;
+        padding-bottom: 5%;
       }
+    }
 
-      hr {
-        box-sizing: content-box;
-        height: 0;
-        overflow: visible;
-      }
+    :root {
+      --blue: #007bff;
+      --indigo: #6610f2;
+      --purple: #6f42c1;
+      --pink: #e83e8c;
+      --red: #dc3545;
+      --orange: #fd7e14;
+      --yellow: #ffc107;
+      --green: #28a745;
+      --teal: #20c997;
+      --cyan: #17a2b8;
+      --white: #fff;
+      --gray: #6c757d;
+      --gray-dark: #343a40;
+      --primary: #007bff;
+      --secondary: #6c757d;
+      --success: #28a745;
+      --info: #17a2b8;
+      --warning: #ffc107;
+      --danger: #dc3545;
+      --light: #f8f9fa;
+      --dark: #343a40;
+      --breakpoint-xs: 0;
+      --breakpoint-sm: 576px;
+      --breakpoint-md: 768px;
+      --breakpoint-lg: 992px;
+      --breakpoint-xl: 1200px;
+      --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+      --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+    }
 
-      h1,
-      h2 {
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-      }
+    *,
+    ::after,
+    ::before {
+      box-sizing: border-box;
+    }
 
-      p {
-        margin-top: 0;
-        margin-bottom: 1rem;
-      }
+    html {
+      font-family: sans-serif;
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%;
+    }
 
-      ul {
-        margin-top: 0;
-        margin-bottom: 1rem;
-      }
+    header,
+    main,
+    nav {
+      display: block;
+    }
 
-      strong {
-        font-weight: bolder;
-      }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: left;
+      background-color: #fff;
+    }
 
-      a {
-        color: #007bff;
-        text-decoration: none;
-        background-color: transparent;
-      }
+    hr {
+      box-sizing: content-box;
+      height: 0;
+      overflow: visible;
+    }
 
-      img {
-        vertical-align: middle;
-        border-style: none;
-      }
+    h1,
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
 
-      button {
-        border-radius: 0;
-      }
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
 
-      button {
-        margin: 0;
-        font-family: inherit;
-        font-size: inherit;
-        line-height: inherit;
-      }
+    ul {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
 
-      button {
-        overflow: visible;
-      }
+    strong {
+      font-weight: bolder;
+    }
 
-      button {
-        text-transform: none;
-      }
+    a {
+      color: #007bff;
+      text-decoration: none;
+      background-color: transparent;
+    }
 
-      [type="button"],
-      button {
-        -webkit-appearance: button;
-      }
+    img {
+      vertical-align: middle;
+      border-style: none;
+    }
 
-      [type="button"]::-moz-focus-inner,
-      button::-moz-focus-inner {
-        padding: 0;
-        border-style: none;
-      }
+    button {
+      border-radius: 0;
+    }
 
-      ::-webkit-file-upload-button {
-        font: inherit;
-        -webkit-appearance: button;
-      }
+    button {
+      margin: 0;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+    }
 
-      h1,
-      h2 {
-        margin-bottom: 0.5rem;
-        font-weight: 500;
-        line-height: 1.2;
-      }
+    button {
+      overflow: visible;
+    }
 
-      h1 {
-        font-size: 2.5rem;
-      }
+    button {
+      text-transform: none;
+    }
 
-      h2 {
-        font-size: 2rem;
-      }
-      h3 {
-        font-size: 1.2rem;
-      }
+    [type="button"],
+    button {
+      -webkit-appearance: button;
+    }
 
-      hr {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-      }
+    [type="button"]::-moz-focus-inner,
+    button::-moz-focus-inner {
+      padding: 0;
+      border-style: none;
+    }
 
+    ::-webkit-file-upload-button {
+      font: inherit;
+      -webkit-appearance: button;
+    }
+
+    h1,
+    h2 {
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    hr {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    @media (min-width: 576px) {
       .container {
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
+        max-width: 540px;
       }
+    }
 
-      @media (min-width: 576px) {
-        .container {
-          max-width: 540px;
-        }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
       }
+    }
 
-      @media (min-width: 576px) {
-        .container {
-          max-width: 540px;
-        }
-      }
+    .row {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
 
-      .row {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-      }
+    .col-12 {
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
 
-      .col-12 {
-        position: relative;
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-      }
+    .col-12 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
 
-      .col-12 {
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-      }
+    .collapse:not(.show) {
+      display: none;
+    }
 
-      .collapse:not(.show) {
-        display: none;
-      }
+    .nav-link {
+      display: block;
+      padding: 0.5rem 1rem;
+    }
 
-      .nav-link {
-        display: block;
-        padding: 0.5rem 1rem;
-      }
+    .navbar {
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding: 0.5rem 1rem;
+    }
 
-      .navbar {
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-      }
+    .navbar .container {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
 
-      .navbar .container {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
-      }
+    .navbar-brand {
+      display: inline-block;
+      padding-top: 0.3125rem;
+      padding-bottom: 0.3125rem;
+      margin-right: 1rem;
+      font-size: 1.25rem;
+      line-height: inherit;
+      white-space: nowrap;
+    }
 
-      .navbar-brand {
-        display: inline-block;
-        padding-top: 0.3125rem;
-        padding-bottom: 0.3125rem;
-        margin-right: 1rem;
-        font-size: 1.25rem;
-        line-height: inherit;
-        white-space: nowrap;
-      }
+    .navbar-nav {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+    }
 
-      .navbar-nav {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        padding-left: 0;
-        margin-bottom: 0;
-        list-style: none;
-      }
+    .navbar-nav .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+    }
 
-      .navbar-nav .nav-link {
+    .navbar-collapse {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+
+    .navbar-toggler {
+      padding: 0.25rem 0.75rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      background-color: transparent;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+    }
+
+    .navbar-toggler-icon {
+      display: inline-block;
+      width: 1.5em;
+      height: 1.5em;
+      vertical-align: middle;
+      content: "";
+      background: no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+    @media (max-width: 991.98px) {
+      .navbar-expand-lg>.container {
         padding-right: 0;
         padding-left: 0;
       }
+    }
 
-      .navbar-collapse {
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        -ms-flex-positive: 1;
-        flex-grow: 1;
-        -ms-flex-align: center;
-        align-items: center;
-      }
+    .navbar-light .navbar-brand {
+      color: rgba(0, 0, 0, 0.9);
+    }
 
-      .navbar-toggler {
-        padding: 0.25rem 0.75rem;
-        font-size: 1.25rem;
-        line-height: 1;
-        background-color: transparent;
-        border: 1px solid transparent;
-        border-radius: 0.25rem;
-      }
+    .navbar-light .navbar-nav .nav-link {
+      color: rgba(0, 0, 0, 0.5);
+    }
 
-      .navbar-toggler-icon {
-        display: inline-block;
-        width: 1.5em;
-        height: 1.5em;
-        vertical-align: middle;
-        content: "";
-        background: no-repeat center center;
-        background-size: 100% 100%;
-      }
+    .navbar-light .navbar-toggler {
+      color: rgba(0, 0, 0, 0.5);
+      border-color: rgba(0, 0, 0, 0.1);
+    }
 
-      @media (max-width: 991.98px) {
-        .navbar-expand-lg > .container {
-          padding-right: 0;
-          padding-left: 0;
-        }
-      }
+    .navbar-light .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
 
-      .navbar-light .navbar-brand {
-        color: rgba(0, 0, 0, 0.9);
-      }
+    .align-items-center {
+      -ms-flex-align: center !important;
+      align-items: center !important;
+    }
 
-      .navbar-light .navbar-nav .nav-link {
-        color: rgba(0, 0, 0, 0.5);
-      }
+    .fixed-top {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 1030;
+    }
 
-      .navbar-light .navbar-toggler {
-        color: rgba(0, 0, 0, 0.5);
-        border-color: rgba(0, 0, 0, 0.1);
-      }
+    .h-100 {
+      height: 100% !important;
+    }
 
-      .navbar-light .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-      }
+    .ml-auto {
+      margin-left: auto !important;
+    }
 
-      .align-items-center {
-        -ms-flex-align: center !important;
-        align-items: center !important;
-      }
+    .text-center {
+      text-align: center !important;
+    }
 
-      .fixed-top {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-      }
+    .text-white {
+      color: #fff !important;
+    }
 
-      .h-100 {
-        height: 100% !important;
-      }
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local("Open Sans Light"), local("OpenSans-Light"),
+        url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8-VQ.ttf) format("truetype");
+    }
 
-      .ml-auto {
-        margin-left: auto !important;
-      }
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: local("Open Sans Regular"), local("OpenSans-Regular"),
+        url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-U1Ug.ttf) format("truetype");
+    }
+  </style>
 
-      .text-center {
-        text-align: center !important;
-      }
+  <!-- critical css ends -->
 
-      .text-white {
-        color: #fff !important;
-      }
+  <link rel="stylesheet" href="yt-lazyload.min.css" />
+  <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="style.css">
+  </noscript>
 
-      @font-face {
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 300;
-        font-display: swap;
-        src: local("Open Sans Light"), local("OpenSans-Light"),
-          url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8-VQ.ttf)
-            format("truetype");
-      }
 
-      @font-face {
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 400;
-        font-display: swap;
-        src: local("Open Sans Regular"), local("OpenSans-Regular"),
-          url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-U1Ug.ttf)
-            format("truetype");
-      }
-    </style>
 
-    <!-- critical css ends -->
 
-    <link rel="stylesheet" href="yt-lazyload.min.css" />
-    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="style.css"></noscript>
 
-    
 
-    
-    
-
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      defer="defer"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" defer="defer"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
 
   <!-- 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 -->
 
-<script defer src="https://kit.fontawesome.com/24f42b77fa.js" crossorigin="anonymous"></script>
-    
-
-    <link rel="icon" href="img/favicon.gif" type="image/x-icon" />
-
-    <link rel="canonical" href="https://www.ozelpiyanodersim.com" />
-
-    <title>Özel Piyano Dersi - Can Alpay ile Evinizde ya da Kadıköy'de</title>
+  <script defer src="https://kit.fontawesome.com/24f42b77fa.js" crossorigin="anonymous"></script>
 
 
+  <link rel="icon" href="img/favicon.gif" type="image/x-icon" />
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C7K5BWHFZ9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <link rel="canonical" href="https://www.ozelpiyanodersim.com" />
 
-  gtag('config', 'G-C7K5BWHFZ9');
-</script>
+  <title>Özel Piyano Dersi - Can Alpay ile Evinizde ya da Kadıköy'de</title>
 
-<!-- Event snippet for İletişim etkileşimi conversion page
+
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7K5BWHFZ9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-C7K5BWHFZ9');
+  </script>
+
+  <!-- Event snippet for İletişim etkileşimi conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-  function gtag_report_conversion(url) {
-    var callback = function () {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
         'send_to': 'AW-1064457432/-1SwCPDvsKsYENipyfsD',
         'event_callback': callback
-    });
-    return false;
-  }
+      });
+      return false;
+    }
+  </script>
+
+  <!-- Event snippet for Contact conversion page
+In your html page, add the snippet and call gtag_report_conversion_contact when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion_contact(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-1064457432/PvZPCOewqegbENipyfsD',
+        'event_callback': callback
+      });
+      return false;
+    }
   </script>
 
 
-<!-- Begin SessionStack code -->
-<script type="text/javascript">
-  !function(a,b){var c=window;c.SessionStackKey=a,c[a]=c[a]||{t:b,
-  q:[]};for(var d=["start","stop","identify","getSessionId","log","setOnDataCallback","trackEvent"],e=0;e<d.length;e++)!function(b){
-  c[a][b]=c[a][b]||function(){c[a].q.push([b].concat([].slice.call(arguments,0)));
-  }}(d[e]);var f=document.createElement("script");f.async=1,f.crossOrigin="anonymous",
-  f.src="https://cdn.sessionstack.com/sessionstack.js";var g=document.getElementsByTagName("script")[0];
-  g.parentNode.insertBefore(f,g)}("SessionStack","e536aa7fc95c4c45bca3725b110a1b4d");
+  <!-- Begin SessionStack code -->
+  <script type="text/javascript">
+    !function (a, b) {
+      var c = window; c.SessionStackKey = a, c[a] = c[a] || {
+        t: b,
+        q: []
+      }; for (var d = ["start", "stop", "identify", "getSessionId", "log", "setOnDataCallback", "trackEvent"], e = 0; e < d.length; e++)!function (b) {
+        c[a][b] = c[a][b] || function () {
+          c[a].q.push([b].concat([].slice.call(arguments, 0)));
+        }
+      }(d[e]); var f = document.createElement("script"); f.async = 1, f.crossOrigin = "anonymous",
+        f.src = "https://cdn.sessionstack.com/sessionstack.js"; var g = document.getElementsByTagName("script")[0];
+      g.parentNode.insertBefore(f, g)
+    }("SessionStack", "e536aa7fc95c4c45bca3725b110a1b4d");
   </script>
   <!-- End SessionStack Code -->
-  
-  </head>
 
-  <!-- Intro - First contact -->
+</head>
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    
+<!-- Intro - First contact -->
 
-    <script type="application/ld+json">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+  <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "Service",
@@ -733,101 +747,86 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
       }
     </script>
 
-    <header>
-      <!-- Navigation starts here -->
-      <nav
-        class="navbar navbar-expand-lg navbar-light fixed-top"
-        style="background-color: white"
-      >
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img
-              src="/img/logo.webp"
-              class="logo"
-              width="200"
-              height="40"
-              alt="Özel Piyano Dersim Logo"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponsive"
-            aria-controls="navbarResponsive"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#anasayfa">Anasayfa </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#egitimlerimiz">Piyano Dersleri </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#nedediler">Ne Dediler</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sss">Merak Ettikleriniz</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#egitmen">Eğitmen</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.ozelpiyanodersim.com/blog/">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#iletisim">İletişim</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <header>
+    <!-- Navigation starts here -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="/img/logo.webp" class="logo" width="200" height="40" alt="Özel Piyano Dersim Logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#anasayfa">Anasayfa </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#egitimlerimiz">Piyano Dersleri </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nedediler">Ne Dediler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sss">Merak Ettikleriniz</a>
+            </li>
 
-      <!-- Navigation end -->
-
-      <!-- Hero -->
-      <div id="anasayfa" class="container h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-12 text-center text-white hero-text">
-            
-            <h2>
-              <span class="important-color">
-                Can Alpay 
-              </span>
-              ile Evinizde 
-              
-            </h2>
-            
-            
-              <h1 style="font-size: 2.8rem;">
-              Özel <span class="important-color">Piyano</span>  Dersi
-            </h1>
-            <br />
-            <br />
-            <h3>
-              <span class="important-color">Çocuklar </span>ve
-              <span class="important-color">Yetişkinlere</span>
-              Özel <span class="important-color">Eğitim</span> Programları
-            </h3>
-            <br />
-            <br />
-            <br />
-            <a class="hero-button" onclick="return gtag_report_conversion('https://www.ozelpiyanodersim.com/#iletisim');"  href="#iletisim">Detaylı bilgi alın</a>
-            
-          </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#egitmen">Eğitmen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.ozelpiyanodersim.com/blog/">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#iletisim">İletişim</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <!-- Hero end-->
-    </header>
+    </nav>
+
+    <!-- Navigation end -->
+
+    <!-- Hero -->
+    <div id="anasayfa" class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center text-white hero-text">
+
+          <h2>
+            <span class="important-color">
+              Can Alpay
+            </span>
+            ile Evinizde
+
+          </h2>
 
 
-    <!--old jquery 
+          <h1 style="font-size: 2.8rem;">
+            Özel <span class="important-color">Piyano</span> Dersi
+          </h1>
+          <br />
+          <br />
+          <h3>
+            <span class="important-color">Çocuklar </span>ve
+            <span class="important-color">Yetişkinlere</span>
+            Özel <span class="important-color">Eğitim</span> Programları
+          </h3>
+          <br />
+          <br />
+          <br />
+          <a class="hero-button" onclick="return gtag_report_conversion('https://www.ozelpiyanodersim.com/#iletisim');"
+            href="#iletisim">Detaylı bilgi alın</a>
+
+        </div>
+      </div>
+    </div>
+    <!-- Hero end-->
+  </header>
+
+
+  <!--old jquery 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
@@ -836,536 +835,509 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
     -->
 
-    <script
-    src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
-    
-  ></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
 
 
-    <!-- Navigation menu hide-->
-    <script>
-      $(".navbar-collapse a").click(function () {
-        $(".navbar-collapse").collapse("hide");
-      });
-    </script>
+  <!-- Navigation menu hide-->
+  <script>
+    $(".navbar-collapse a").click(function () {
+      $(".navbar-collapse").collapse("hide");
+    });
+  </script>
 
-    <main>
-      <div class="sticky">
-        <div class="phone-box">
-          <a
-            href="tel:+905335752410"
-            onclick="gtag_report_conversion('tel:+905335752410')"
-            aria-label="phone-box"
-            class="phone-icon"
-            rel="noreferrer"
-          >
-            <i class="fas fa-phone"></i>
-          </a>
-         Arayın
+  <main>
+    <div class="sticky">
+      <div class="phone-box">
+        <a href="tel:+905335752410" onclick="gtag_report_conversion('tel:+905335752410')" aria-label="phone-box"
+          class="phone-icon" rel="noreferrer">
+          <i class="fas fa-phone"></i>
+        </a>
+        Arayın
+      </div>
+
+      <div class="whatsapp-box">
+        <a href="https://api.whatsapp.com/send?phone=905335752410"
+          onclick="gtag_report_conversion('https://api.whatsapp.com/send?phone=905335752410')" target="_blank"
+          aria-label="whatsapp" class="whatsapp-icon" rel="noreferrer">
+          <i class="fab fa-whatsapp-square"></i>
+        </a>
+        Whatsapp
+      </div>
+    </div>
+
+    <!-- New content -->
+
+    <!-- Çocuklar için bölümü başlangıcı -->
+
+    <div id="egitimlerimiz">
+      <div class="section-head-black">
+        <h2>Piyano Dersleri</h2>
+        <hr />
+      </div>
+      <div class="egitmen-content">
+        <div class="ogrenciler-image">
+          <img src="img/cocuklar-kolaj.webp" loading="lazy" alt="Öğrenci fotoğrafları kolajı" width="500"
+            height="400" />
         </div>
-
-        <div class="whatsapp-box">
-          <a
-            href="https://api.whatsapp.com/send?phone=905335752410"
-            onclick="gtag_report_conversion('https://api.whatsapp.com/send?phone=905335752410')"
-            target="_blank"
-            aria-label="whatsapp"
-            class="whatsapp-icon"
-            rel="noreferrer"
-          >
-            <i class="fab fa-whatsapp-square"></i>
-          </a>
-          Whatsapp
+        <div class="egitmen-resume">
+          <h3 style="padding-bottom: 1rem">Çocuklar için piyano dersi</h3>
+          <p>
+            Çocuklar için piyano eğitimimiz 6 yaşından itibaren başlıyor.
+            Derslerimizde çocuklar için yazılmış olan özel piyano metotlarının
+            (Faber Piano Adventures, John Thompson Kolay piyano kursu,
+            Kardeşim piyano, Kolay Piyano, Beyer op.101) desteği ile
+            öğrencimizin öğrenme stili ve hızına uygun, kişiye özel bir
+            program uyguluyoruz.
+          </p>
+          <p>
+            Metotlar eşliğinde temel teknik çalışmaların yanında solfej ve
+            ritim çalışmaları yapıyoruz. Repertuar çalışmalarımızı, öncelikle
+            öğrencimizin yaşına ve seviyesine uygun olarak yazılmış veya
+            düzenlenmiş popüler ve klasik eserler içinden seçiyoruz.
+          </p>
+          <p>
+            Ders saatlerimizi hafta içi 16:00’dan itibaren uygun bir zaman
+            dilimi olarak belirleyip, her hafta aynı gün ve saatte olacak
+            şekilde programlıyoruz.
+          </p>
         </div>
       </div>
 
-      <!-- New content -->
+      <!-- Yetişkinler için bölümü başlangıcı -->
 
-      <!-- Çocuklar için bölümü başlangıcı -->
-
-      <div id="egitimlerimiz">
-        <div class="section-head-black">
-          <h2>Piyano Dersleri</h2>
-          <hr />
+      <div class="egitmen-content">
+        <div class="ogrenciler-image">
+          <img src="img/yetiskin-kolaj.webp" loading="lazy" alt="yetişkin öğrenci fotoğraf kolajı" width="500"
+            height="400" />
         </div>
-        <div class="egitmen-content">
-          <div class="ogrenciler-image">
-            <img
-              src="img/cocuklar-kolaj.webp"
-              loading="lazy"
-              alt="Öğrenci fotoğrafları kolajı"
-              width="500" height="400"
-            />
-          </div>
-          <div class="egitmen-resume">
-            <h3 style="padding-bottom: 1rem">Çocuklar için piyano dersi</h3>
-            <p>
-              Çocuklar için piyano eğitimimiz 6 yaşından itibaren başlıyor.
-              Derslerimizde çocuklar için yazılmış olan özel piyano metotlarının
-              (Faber Piano Adventures, John Thompson Kolay piyano kursu,
-              Kardeşim piyano, Kolay Piyano, Beyer op.101) desteği ile
-              öğrencimizin öğrenme stili ve hızına uygun, kişiye özel bir
-              program uyguluyoruz.
-            </p>
-            <p>
-              Metotlar eşliğinde temel teknik çalışmaların yanında solfej ve
-              ritim çalışmaları yapıyoruz. Repertuar çalışmalarımızı, öncelikle
-              öğrencimizin yaşına ve seviyesine uygun olarak yazılmış veya
-              düzenlenmiş popüler ve klasik eserler içinden seçiyoruz.
-            </p>
-            <p>
-              Ders saatlerimizi hafta içi 16:00’dan itibaren uygun bir zaman
-              dilimi olarak belirleyip, her hafta aynı gün ve saatte olacak
-              şekilde programlıyoruz.
-            </p>
-          </div>
-        </div>
-
-        <!-- Yetişkinler için bölümü başlangıcı -->
-
-        <div class="egitmen-content">
-          <div class="ogrenciler-image">
-            <img
-              src="img/yetiskin-kolaj.webp"
-              loading="lazy"
-              alt="yetişkin öğrenci fotoğraf kolajı"
-              width="500" height="400"
-            />
-          </div>
-          <div class="egitmen-resume">
-            <h3 style="padding-bottom: 1rem">Yetişkinler için piyano dersi</h3>
-            <p>
-              Yetişkinler için piyano derslerimiz öğrencimizin istek ve
-              hayalleri ile şekillenen bir eğitim içeriğine sahip. Klasik bir
-              piyano eğitimi almak isteyen öğrencilerimiz için klasik piyano
-              metotları olan Beyer op.101, Czerny op.299, Czerny op.599, Kohler
-              op.249, Hanon vb. metotları kullanıyoruz. Popüler müzik tarzlarına
-              ilgi duyan öğrencilerimiz için kişiye özel bir eğitim içeriği
-              oluşturuyoruz. Bu içeriği programlarken pop, blues, caz özelinde
-              yazılmış olan metotlardan faydalanırken; şarkı söyleyip, kendisine
-              eşlik etmek isteyenler için de yazılmış özel metotları
-              kullanıyoruz.
-            </p>
-            <p>
-              Ders saatlerimizi hafta içi 14:00’dan itibaren uygun bir zaman
-              dilimi olarak belirleyip, her hafta aynı gün ve saatte olacak
-              şekilde programlıyoruz.
-            </p>
-          </div>
+        <div class="egitmen-resume">
+          <h3 style="padding-bottom: 1rem">Yetişkinler için piyano dersi</h3>
+          <p>
+            Yetişkinler için piyano derslerimiz öğrencimizin istek ve
+            hayalleri ile şekillenen bir eğitim içeriğine sahip. Klasik bir
+            piyano eğitimi almak isteyen öğrencilerimiz için klasik piyano
+            metotları olan Beyer op.101, Czerny op.299, Czerny op.599, Kohler
+            op.249, Hanon vb. metotları kullanıyoruz. Popüler müzik tarzlarına
+            ilgi duyan öğrencilerimiz için kişiye özel bir eğitim içeriği
+            oluşturuyoruz. Bu içeriği programlarken pop, blues, caz özelinde
+            yazılmış olan metotlardan faydalanırken; şarkı söyleyip, kendisine
+            eşlik etmek isteyenler için de yazılmış özel metotları
+            kullanıyoruz.
+          </p>
+          <p>
+            Ders saatlerimizi hafta içi 14:00’dan itibaren uygun bir zaman
+            dilimi olarak belirleyip, her hafta aynı gün ve saatte olacak
+            şekilde programlıyoruz.
+          </p>
         </div>
       </div>
+    </div>
 
 
-      <!-- Ne Dediler Section -->
+    <!-- Ne Dediler Section -->
 
-      <div id="nedediler">
-        <div class="section-head-white">
-          <h2>Ne Dediler</h2>
-          <hr />
-        </div>
-
-        <div class="nedediler-video-content video-mobile">
-          <div
-            class="yt-lazyload video-one"
-            data-id="7gMagls_ib8"
-            data-thumb=""
-          ></div>
-          <div
-            class="yt-lazyload video-two"
-            data-id="c4ch9PbFvfg"
-            data-thumb=""
-          ></div>
-        </div>
-
-        <div class="nedediler-content">
-          
-          <div id="second" class="testimonial-box">
-            <div class="box-left">
-              <div class="testimonial-photo">
-                <img src="img/alara_noyan.webp" width="260" height="237" loading="lazy" alt="Alara Noyan" />
-              </div>
-              <div class="testimonial-name">
-                <p>Alara Noyan</p>
-              </div>
-              <div class="testimonial-title">
-                <p>Öğrenci</p>
-              </div>
-            </div>
-            <div class="box-right">
-              <div class="testimonial-text">
-                <p>
-                  Can hocam, öğretmen olmasının yanı sıra 10 parmağında 10
-                  marifet olan bir müzisyen. Enstrümanlara olan hakimiyeti ve
-                  <strong>armoni bilgisi</strong>yle öğrencilerini şaşırttığını
-                  düşündüğüm hocam benim en iyi yol göstericim. Kendisi bana
-                  piyano dersleri haricinde, armoni konusunda da birçok şey
-                  katıyor. Anlamadığım herhangi bir noktayı bana milyonlarca kez
-                  anlattığını biliyorum. Herkes kendi konusunda bilgilidir ama
-                  <strong
-                    >başkasına öğretebilmek ve aktarabilmek ayrı bir
-                    yetenektir</strong
-                  >. Eğer piyanoya karşı ilgi duyuyor, onu ayrıntılarıyla
-                  öğrenmek istiyorsanız Can hocam en doğru adres. Kendisine bana
-                  verdiği motivasyon ve destek için teşekkür ediyorum.
-                </p>
-              </div>
-            </div>
-          </div>
- 
-          <div id="last" class="testimonial-box">
-            <div class="box-left">
-              <div class="testimonial-photo">
-                <img src="img/kuzey_toprak.jpg" width="270" height="250" loading="lazy" alt="Toprak Toprak" />
-              </div>
-              <div class="testimonial-name">
-                <p>Toprak Toprak</p>
-              </div>
-              <div class="testimonial-title">
-                <p>Ev hanımı</p>
-              </div>
-            </div>
-            <div class="box-right">
-              <div class="testimonial-text">
-                <p>
-                  Can Hocamız, enstrüman kabiliyetini çocuğumuza aktarırken, almış olduğu pedagojik formasyon eğitimi ile bu aktarımı harmanlıyor ve sadece bu yönüyle bile çocuğumuza çok kıymetli bir eğitim sunuyor. 
-Böyle olunca da süreç; sadece belirli bir parçayı, belirli sabit kalıplarla salt ezber şeklinde ilkel yöntemlerle değil, çocuğun yaşını, yapısını ve motivasyonunu dikkate alarak, pedagojik ilkelerle, kalıcı ve bütüncül bir şekilde öğreterek ilerliyor. 
-Bunun sonucunda da biz velilere, çocuğumuzun gün be gün gelişimini hayranlıkla gözlemlemek kalıyor.
-Hem yukarıdaki sebeplerle, hem de çocuklar ve velilerle kurduğu nazik ilişki sebebiyle kendisine teşekkür ederiz.
-Biz, tanışıyor olmaktan ve çocuğumuzun öğretmeni olmasından dolayı çok mutluyuz.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div id="fifth" class="testimonial-box">
-            <div class="box-left">
-              <div class="testimonial-photo">
-                <img src="img/cumhur_emregul.webp" width="289" height="300" loading="lazy" alt="Cumhur Emregül" />
-              </div>
-              <div class="testimonial-name">
-                <p>Cumhur Emregül</p>
-              </div>
-              <div class="testimonial-title">
-                <p>Yüksek Mimar</p>
-              </div>
-            </div>
-            <div class="box-right">
-              <div class="testimonial-text">
-                <p>
-                  45 yaşıma gelip, içimdeki piyano çalma arzum öne çıktığında
-                  Can hocam ile tanıştık. İyi ki de tanışmışız çünkü bana
-                  verdiği moral, motivasyon ve eğitim sayesinde kısa sürede
-                  çalmayı arzuladığım repertuarı piyano ile çalabilme
-                  yetkinliğini kazandırdı. Ne zaman bu parça oldu desem üzerine
-                  ilaveler yaparak, beni daha da zorlayarak kendimi geliştirmem
-                  içim fırsatlar oluşturdu. Can hocanın yüksek enerjisi, her
-                  zaman daha iyi ve daha doğruya odaklı çalışma metodu sayesinde
-                  kendime çok şeyler kattığımı düşünüyorum.
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-          <div id="third" class="testimonial-box">
-            <div class="box-left">
-              <div class="testimonial-photo">
-                <img src="img/aydan_ogut.webp" width="270" height="250" loading="lazy" alt="Aydan Öğüt" />
-              </div>
-              <div class="testimonial-name">
-                <p>Aydan Öğüt</p>
-              </div>
-              <div class="testimonial-title">
-                <p>Diş Hekimi</p>
-              </div>
-            </div>
-            <div class="box-right">
-              <div class="testimonial-text">
-                <p>
-                  Can, 7 den 77 'ye müzik bilgisini karşısındakini sıkmadan
-                  aktarabilecek bir öğretmen. Çok şanslıyım ki
-                  <strong>müzik konusundaki isteklerimi anlayan</strong>
-                  ve "nasıl olsa ileri yaşta, sadece belli parçaları çalabilsin,
-                  sıkılmasın" zihniyetinden uzak bir eğitim alabildiğim;
-                  sabırlı, hedefe değişik yollardan ulaştıran, eğlenceli ve
-                  <strong
-                    >içimdeki müzisyeni açığa çıkarmayı başaran bir
-                    eğitmen</strong
-                  >. Beste yapmanın zevkini tattırdığı için de ayrıca teşekkür
-                  ederim, tek üzüntüm daha önce tanışmamış olmak.
-                </p>
-              </div>
-            </div>
-          </div>
-          
-
-         
-
-          <div id="first" class="testimonial-box">
-            <div class="box-left">
-              <div class="testimonial-photo">
-                <img src="img/tolga_gorgulu.webp" width="270" height="250" loading="lazy" alt="Tolga Görgülü" />
-              </div>
-              <div class="testimonial-name">
-                <p>Tolga Görgülü</p>
-              </div>
-              <div class="testimonial-title">
-                <p>İK Direktörü</p>
-              </div>
-            </div>
-            <div class="box-right">
-              <div class="testimonial-text">
-                <p>
-                  Sizde benim gibi 45 yıllık hayaliniz olan piyano çalmaya
-                  keyifle başlamak istiyorsanız doğru adres Sevgili Can
-                  Alpay’dır. Piyanodan ve
-                  <strong>çaldığınız eserden keyif almayı sağlamakta</strong>
-                  Can hakikaten çok başarılıdır. Kendisi ile sıfırdan
-                  başladığımız bu yolculukta
-                  <strong
-                    >Dede Efendi’den Elton John’a, Minuet’ten Hatırla
-                    Sevgili</strong
-                  >’ye kadar ki geniş bir repertuarı kısa zamanda oluşturduk.
-                  Senelerdir keyifle dinlediğim parçaları hayal ettiğim müzik
-                  aletinde çalmanın mutluluğunu yaşıyorum. Sağolsun sınırları
-                  zorlayan taleplerimin her birini yerine getirmeye çalışıyor.
-                  Bunu yaparken tekniğimizin de gelişimine büyük önem veriyor.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div id="nedediler">
+      <div class="section-head-white">
+        <h2>Ne Dediler</h2>
+        <hr />
       </div>
 
-      <!-- avantajlar section-->
+      <div class="nedediler-video-content video-mobile">
+        <div class="yt-lazyload video-one" data-id="7gMagls_ib8" data-thumb=""></div>
+        <div class="yt-lazyload video-two" data-id="c4ch9PbFvfg" data-thumb=""></div>
+      </div>
 
-      <div id="avantajlar">
-        <div class="section-head-black">
-          <h2>Avantajlar</h2>
-          <hr />
-        </div>
+      <div class="nedediler-content">
 
-        <div class="avantajlar-content">
-          <div id="avantaj-box-1">
-            <div class="avantaj-check">
-              <i class="far fa-check-square fa-2x"></i>
+        <div id="second" class="testimonial-box">
+          <div class="box-left">
+            <div class="testimonial-photo">
+              <img src="img/alara_noyan.webp" width="260" height="237" loading="lazy" alt="Alara Noyan" />
             </div>
-            <div class="avantaj-heading"><h3>Kişiye özel program</h3></div>
-            <div class="avantaj-content">
+            <div class="testimonial-name">
+              <p>Alara Noyan</p>
+            </div>
+            <div class="testimonial-title">
+              <p>Öğrenci</p>
+            </div>
+          </div>
+          <div class="box-right">
+            <div class="testimonial-text">
               <p>
-                Kişiye özel program sayesinde ihtiyacınız olmayan çalışmalar ile
-                vakit kaybetmeyeceksiniz.
+                Can hocam, öğretmen olmasının yanı sıra 10 parmağında 10
+                marifet olan bir müzisyen. Enstrümanlara olan hakimiyeti ve
+                <strong>armoni bilgisi</strong>yle öğrencilerini şaşırttığını
+                düşündüğüm hocam benim en iyi yol göstericim. Kendisi bana
+                piyano dersleri haricinde, armoni konusunda da birçok şey
+                katıyor. Anlamadığım herhangi bir noktayı bana milyonlarca kez
+                anlattığını biliyorum. Herkes kendi konusunda bilgilidir ama
+                <strong>başkasına öğretebilmek ve aktarabilmek ayrı bir
+                  yetenektir</strong>. Eğer piyanoya karşı ilgi duyuyor, onu ayrıntılarıyla
+                öğrenmek istiyorsanız Can hocam en doğru adres. Kendisine bana
+                verdiği motivasyon ve destek için teşekkür ediyorum.
               </p>
             </div>
           </div>
-          <div id="avantaj-box-2">
-            <div class="avantaj-check">
-              <i class="far fa-check-square fa-2x"></i>
+        </div>
+
+        <div id="last" class="testimonial-box">
+          <div class="box-left">
+            <div class="testimonial-photo">
+              <img src="img/kuzey_toprak.jpg" width="270" height="250" loading="lazy" alt="Toprak Toprak" />
             </div>
-            <div class="avantaj-heading"><h3>İstenilen müzik tarzı</h3></div>
-            <div class="avantaj-content">
-              <p>Arzuladığınız müzik tarzında çalışma olanağı bulacaksınız.</p>
+            <div class="testimonial-name">
+              <p>Toprak Toprak</p>
+            </div>
+            <div class="testimonial-title">
+              <p>Ev hanımı</p>
             </div>
           </div>
-          <div id="avantaj-box-3">
-            <div class="avantaj-check">
-              <i class="far fa-check-square fa-2x"></i>
-            </div>
-            <div class="avantaj-heading"><h3>Pedagojik formasyon</h3></div>
-            <div class="avantaj-content">
+          <div class="box-right">
+            <div class="testimonial-text">
               <p>
-                Çocuğunuz pedagojik formasyon sahibi tecrübeli bir
-                eğitmenden piyano dersi alacak.
+                Can Hocamız, enstrüman kabiliyetini çocuğumuza aktarırken, almış olduğu pedagojik formasyon eğitimi ile
+                bu aktarımı harmanlıyor ve sadece bu yönüyle bile çocuğumuza çok kıymetli bir eğitim sunuyor.
+                Böyle olunca da süreç; sadece belirli bir parçayı, belirli sabit kalıplarla salt ezber şeklinde ilkel
+                yöntemlerle değil, çocuğun yaşını, yapısını ve motivasyonunu dikkate alarak, pedagojik ilkelerle, kalıcı
+                ve bütüncül bir şekilde öğreterek ilerliyor.
+                Bunun sonucunda da biz velilere, çocuğumuzun gün be gün gelişimini hayranlıkla gözlemlemek kalıyor.
+                Hem yukarıdaki sebeplerle, hem de çocuklar ve velilerle kurduğu nazik ilişki sebebiyle kendisine
+                teşekkür ederiz.
+                Biz, tanışıyor olmaktan ve çocuğumuzun öğretmeni olmasından dolayı çok mutluyuz.
               </p>
             </div>
           </div>
-          <div id="avantaj-box-4">
-            <div class="avantaj-check">
-              <i class="far fa-check-square fa-2x"></i>
+        </div>
+
+        <div id="fifth" class="testimonial-box">
+          <div class="box-left">
+            <div class="testimonial-photo">
+              <img src="img/cumhur_emregul.webp" width="289" height="300" loading="lazy" alt="Cumhur Emregül" />
             </div>
-            <div class="avantaj-heading"><h3>Evinizde eğitim</h3></div>
-            <div class="avantaj-content">
+            <div class="testimonial-name">
+              <p>Cumhur Emregül</p>
+            </div>
+            <div class="testimonial-title">
+              <p>Yüksek Mimar</p>
+            </div>
+          </div>
+          <div class="box-right">
+            <div class="testimonial-text">
               <p>
-                Trafikte vakit kaybetmeden, park yeri aramak zorunda kalmadan, evinizde özel piyano dersi alabileceksiniz.
+                45 yaşıma gelip, içimdeki piyano çalma arzum öne çıktığında
+                Can hocam ile tanıştık. İyi ki de tanışmışız çünkü bana
+                verdiği moral, motivasyon ve eğitim sayesinde kısa sürede
+                çalmayı arzuladığım repertuarı piyano ile çalabilme
+                yetkinliğini kazandırdı. Ne zaman bu parça oldu desem üzerine
+                ilaveler yaparak, beni daha da zorlayarak kendimi geliştirmem
+                içim fırsatlar oluşturdu. Can hocanın yüksek enerjisi, her
+                zaman daha iyi ve daha doğruya odaklı çalışma metodu sayesinde
+                kendime çok şeyler kattığımı düşünüyorum.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="third" class="testimonial-box">
+          <div class="box-left">
+            <div class="testimonial-photo">
+              <img src="img/aydan_ogut.webp" width="270" height="250" loading="lazy" alt="Aydan Öğüt" />
+            </div>
+            <div class="testimonial-name">
+              <p>Aydan Öğüt</p>
+            </div>
+            <div class="testimonial-title">
+              <p>Diş Hekimi</p>
+            </div>
+          </div>
+          <div class="box-right">
+            <div class="testimonial-text">
+              <p>
+                Can, 7 den 77 'ye müzik bilgisini karşısındakini sıkmadan
+                aktarabilecek bir öğretmen. Çok şanslıyım ki
+                <strong>müzik konusundaki isteklerimi anlayan</strong>
+                ve "nasıl olsa ileri yaşta, sadece belli parçaları çalabilsin,
+                sıkılmasın" zihniyetinden uzak bir eğitim alabildiğim;
+                sabırlı, hedefe değişik yollardan ulaştıran, eğlenceli ve
+                <strong>içimdeki müzisyeni açığa çıkarmayı başaran bir
+                  eğitmen</strong>. Beste yapmanın zevkini tattırdığı için de ayrıca teşekkür
+                ederim, tek üzüntüm daha önce tanışmamış olmak.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div id="first" class="testimonial-box">
+          <div class="box-left">
+            <div class="testimonial-photo">
+              <img src="img/tolga_gorgulu.webp" width="270" height="250" loading="lazy" alt="Tolga Görgülü" />
+            </div>
+            <div class="testimonial-name">
+              <p>Tolga Görgülü</p>
+            </div>
+            <div class="testimonial-title">
+              <p>İK Direktörü</p>
+            </div>
+          </div>
+          <div class="box-right">
+            <div class="testimonial-text">
+              <p>
+                Sizde benim gibi 45 yıllık hayaliniz olan piyano çalmaya
+                keyifle başlamak istiyorsanız doğru adres Sevgili Can
+                Alpay’dır. Piyanodan ve
+                <strong>çaldığınız eserden keyif almayı sağlamakta</strong>
+                Can hakikaten çok başarılıdır. Kendisi ile sıfırdan
+                başladığımız bu yolculukta
+                <strong>Dede Efendi’den Elton John’a, Minuet’ten Hatırla
+                  Sevgili</strong>’ye kadar ki geniş bir repertuarı kısa zamanda oluşturduk.
+                Senelerdir keyifle dinlediğim parçaları hayal ettiğim müzik
+                aletinde çalmanın mutluluğunu yaşıyorum. Sağolsun sınırları
+                zorlayan taleplerimin her birini yerine getirmeye çalışıyor.
+                Bunu yaparken tekniğimizin de gelişimine büyük önem veriyor.
               </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <!--- Merak Ettikleriniz Section-->
+    <!-- avantajlar section-->
 
-      <div id="sss">
-        <div class="section-head-orange">
-          <h2>Merak Ettikleriniz</h2>
-          <hr />
+    <div id="avantajlar">
+      <div class="section-head-black">
+        <h2>Avantajlar</h2>
+        <hr />
+      </div>
+
+      <div class="avantajlar-content">
+        <div id="avantaj-box-1">
+          <div class="avantaj-check">
+            <i class="far fa-check-square fa-2x"></i>
+          </div>
+          <div class="avantaj-heading">
+            <h3>Kişiye özel program</h3>
+          </div>
+          <div class="avantaj-content">
+            <p>
+              Kişiye özel program sayesinde ihtiyacınız olmayan çalışmalar ile
+              vakit kaybetmeyeceksiniz.
+            </p>
+          </div>
         </div>
-        <div class="sss-box">
-          <div class="sss-content">
-            <h3>
-              Çocuğumun piyano derslerine başlaması için en uygun yaş kaçtır?
-            </h3>
-            
-
+        <div id="avantaj-box-2">
+          <div class="avantaj-check">
+            <i class="far fa-check-square fa-2x"></i>
+          </div>
+          <div class="avantaj-heading">
+            <h3>İstenilen müzik tarzı</h3>
+          </div>
+          <div class="avantaj-content">
+            <p>Arzuladığınız müzik tarzında çalışma olanağı bulacaksınız.</p>
+          </div>
+        </div>
+        <div id="avantaj-box-3">
+          <div class="avantaj-check">
+            <i class="far fa-check-square fa-2x"></i>
+          </div>
+          <div class="avantaj-heading">
+            <h3>Pedagojik formasyon</h3>
+          </div>
+          <div class="avantaj-content">
             <p>
-              Öğrencinin özel piyano derslerinden en iyi faydayı sağlayabilmesi
-              için konsantrasyon seviyesinin biraz daha yüksek olduğu 6 yaş ve
-              üstü olması gerektiğini düşünüyorum.
+              Çocuğunuz pedagojik formasyon sahibi tecrübeli bir
+              eğitmenden piyano dersi alacak.
             </p>
-            <br>
-
-            <h3>Yaşım biraz ileri, piyano çalmayı öğrenebilir miyim?</h3>
-            
-
+          </div>
+        </div>
+        <div id="avantaj-box-4">
+          <div class="avantaj-check">
+            <i class="far fa-check-square fa-2x"></i>
+          </div>
+          <div class="avantaj-heading">
+            <h3>Evinizde eğitim</h3>
+          </div>
+          <div class="avantaj-content">
             <p>
-              20 yıllık tecrübemin bana gösterdiği her bireyin yaşından bağımsız
-              olarak kendini mutlu edecek seviyede piyano çalmayı
-              öğrenebileceğidir. Sizin istek ve hedeflerinizi anlayan, öğrenme
-              stilinize göre bir eğitim programı hazırlayan bir eğitmen ile
-              çalıştığınız takdirde keyif alacak şekilde piyano çalmayı
-              öğrenebilirsiniz.
+              Trafikte vakit kaybetmeden, park yeri aramak zorunda kalmadan, evinizde özel piyano dersi alabileceksiniz.
             </p>
-            <br>
-
-            <h3>
-              Ne kadar zamanda piyano çalmayı öğrenirim? Piyano derslerine ne
-              kadar süre devam etmeliyim?
-            </h3>
-            
-
-            <p>
-              Bu sorunun standart belirli bir cevabı olmayıp, ortalama 4-6 ay
-              içerisinde sizi mutlu edecek basit parçalar çalmanız mümkündür.
-              Piyano derslerine ne kadar devam edeceğiniz sizin beklentileriniz,
-              kişilik özellikleriniz ve kendinizi ne kadar geliştirmek
-              istediğiniz ile doğru orantılıdır.
-            </p>
-            <br>
-
-            
-            
           </div>
         </div>
       </div>
+    </div>
 
-      
+    <!--- Merak Ettikleriniz Section-->
 
-      <!--Eğitmen Section-->
+    <div id="sss">
+      <div class="section-head-orange">
+        <h2>Merak Ettikleriniz</h2>
+        <hr />
+      </div>
+      <div class="sss-box">
+        <div class="sss-content">
+          <h3>
+            Çocuğumun piyano derslerine başlaması için en uygun yaş kaçtır?
+          </h3>
 
-      <div id="egitmen">
-        <div class="section-head-black">
-          <h2>Eğitmen</h2>
-          <hr />
-        </div>
-        <div class="egitmen-content">
-          <div class="egitmen-image">
-            <img src="img/canalpay.webp" loading="lazy" alt="Can Alpay"/>
-          </div>
-          <div class="egitmen-resume">
-            
-           <p>
-              <span style="font-weight:900">Can Alpay </span>, 1998 yılında Bilgi Üniversitesi Müzik/Caz besteciliği bölümüne burslu olarak kabul edildi. Okulda aldığı piyano eğitiminin yanısıra Aydın Esen ile caz emprovizasyon ve kompozisyon, Ali Perret ile modern armoni, Selen Gülün ile kontrpuan ve caz kompozisyon, Ricky Ford ile aranjman teknikleri, Kamil Özler ile orkestrasyon, Timur Selçuk ile Türk musikisi çalıştı. 2021 yılında İstanbul Üniversitesi'nden Pedagojik Formasyon eğitimi aldı. 
-            </p>
-              <p>
-                2002 yılından bu yana piyano, gitar, caz armonisi ve müzik okullarına hazırlık konularında özel dersler vermekte olan Alpay'ın birçok öğrencisi Yıldız Teknik Üniversitesi Müzik Toplulukları bölümü ve Bilgi Üniversitesi Müzik bölümüne burslu olarak kabul edildi. 
-              </p>
-              <p>
-                2004-2006 yılları arasında Müjdat Gezen Sanat Merkezi, Timur Selçuk-Çağdaş Sanat Merkezi'nde dersler verdi. 2006-2012 yılları arasında Play Müzik Eğitimi ve Danışmanlığının kurucu ortaklığı ve yöneticiliğini yaptı.
-              </p>
-          </div>
+
+          <p>
+            Öğrencinin özel piyano derslerinden en iyi faydayı sağlayabilmesi
+            için konsantrasyon seviyesinin biraz daha yüksek olduğu 6 yaş ve
+            üstü olması gerektiğini düşünüyorum.
+          </p>
+          <br>
+
+          <h3>Yaşım biraz ileri, piyano çalmayı öğrenebilir miyim?</h3>
+
+
+          <p>
+            20 yıllık tecrübemin bana gösterdiği her bireyin yaşından bağımsız
+            olarak kendini mutlu edecek seviyede piyano çalmayı
+            öğrenebileceğidir. Sizin istek ve hedeflerinizi anlayan, öğrenme
+            stilinize göre bir eğitim programı hazırlayan bir eğitmen ile
+            çalıştığınız takdirde keyif alacak şekilde piyano çalmayı
+            öğrenebilirsiniz.
+          </p>
+          <br>
+
+          <h3>
+            Ne kadar zamanda piyano çalmayı öğrenirim? Piyano derslerine ne
+            kadar süre devam etmeliyim?
+          </h3>
+
+
+          <p>
+            Bu sorunun standart belirli bir cevabı olmayıp, ortalama 4-6 ay
+            içerisinde sizi mutlu edecek basit parçalar çalmanız mümkündür.
+            Piyano derslerine ne kadar devam edeceğiniz sizin beklentileriniz,
+            kişilik özellikleriniz ve kendinizi ne kadar geliştirmek
+            istediğiniz ile doğru orantılıdır.
+          </p>
+          <br>
+
+
+
         </div>
       </div>
+    </div>
 
-      <!-- Contact Section Hayırlısıyla .. -->
-      <div class="iletisim" id="iletisim">
-        <div class="section-head-white">
-          <h2>İletişim</h2>
-          <hr />
+
+
+    <!--Eğitmen Section-->
+
+    <div id="egitmen">
+      <div class="section-head-black">
+        <h2>Eğitmen</h2>
+        <hr />
+      </div>
+      <div class="egitmen-content">
+        <div class="egitmen-image">
+          <img src="img/canalpay.webp" loading="lazy" alt="Can Alpay" />
         </div>
-        <div class="iletisim-box">
-          <div class="iletisim-box-left">
-            <a href="tel:05335752410" aria-label="telefon">
+        <div class="egitmen-resume">
+
+          <p>
+            <span style="font-weight:900">Can Alpay </span>, 1998 yılında Bilgi Üniversitesi Müzik/Caz besteciliği
+            bölümüne burslu olarak kabul edildi. Okulda aldığı piyano eğitiminin yanısıra Aydın Esen ile caz
+            emprovizasyon ve kompozisyon, Ali Perret ile modern armoni, Selen Gülün ile kontrpuan ve caz kompozisyon,
+            Ricky Ford ile aranjman teknikleri, Kamil Özler ile orkestrasyon, Timur Selçuk ile Türk musikisi çalıştı.
+            2021 yılında İstanbul Üniversitesi'nden Pedagojik Formasyon eğitimi aldı.
+          </p>
+          <p>
+            2002 yılından bu yana piyano, gitar, caz armonisi ve müzik okullarına hazırlık konularında özel dersler
+            vermekte olan Alpay'ın birçok öğrencisi Yıldız Teknik Üniversitesi Müzik Toplulukları bölümü ve Bilgi
+            Üniversitesi Müzik bölümüne burslu olarak kabul edildi.
+          </p>
+          <p>
+            2004-2006 yılları arasında Müjdat Gezen Sanat Merkezi, Timur Selçuk-Çağdaş Sanat Merkezi'nde dersler verdi.
+            2006-2012 yılları arasında Play Müzik Eğitimi ve Danışmanlığının kurucu ortaklığı ve yöneticiliğini yaptı.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section Hayırlısıyla .. -->
+    <div class="iletisim" id="iletisim">
+      <div class="section-head-white">
+        <h2>İletişim</h2>
+        <hr />
+      </div>
+      <div class="iletisim-box">
+        <div class="iletisim-box-left">
+          <a href="tel:05335752410" aria-label="telefon">
             <i class="fas fa-phone fa-2x"></i>
           </a>
-            <p style="font-size: 2em">
-              <strong>0533 575 24 10</strong>
-            </p>
+          <p style="font-size: 2em">
+            <strong>0533 575 24 10</strong>
+          </p>
 
-            <p></p>
-            <p style="font-size: 1.5em">
-              İstanbul "Anadolu yakasındaki" bütün ilçelerde, evinizde, özel
-              piyano dersi alabilirsiniz.
-            </p>
+          <p></p>
+          <p style="font-size: 1.5em">
+            İstanbul "Anadolu yakasındaki" bütün ilçelerde, evinizde, özel
+            piyano dersi alabilirsiniz.
+          </p>
 
-            <div class="social_icons">
-              <a
-                onclick="return gtag_report_conversion('https://www.instagram.com/ozel_piyano_dersim/');"
-                href="https://www.instagram.com/ozel_piyano_dersim/"
-                target="_blank"
-                aria-label="instagram"
-                class="instagram"
-                rel="noreferrer"
-              >
-                <i class="fab fa-instagram fa-4x"></i>
-              </a>
-              <a
-                onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=905335752410');"
-                href="https://api.whatsapp.com/send?phone=905335752410"
-                target="_blank"
-                aria-label="whatsapp"
-                class="whatsapp"
-                rel="noreferrer"
-              >
-                <i class="fab fa-whatsapp-square fa-4x"></i>
-              </a>
-            </div>
-          </div>
-          <div class="iletisim-box-right">
-            <form id="iletisim-formu">
-              <p>Adınız (Gerekli)</p>
-              <input type="text" name="ad" /><br />
-              <p>E postanız (Gerekli)</p>
-              <input type="email" name="mail" /><br />
-              <p>Mesajınız</p>
-              <textarea name="mesaj" form="iletisim-formu"></textarea><br />
-              <input type="submit" name="gonder" value="Gönder" />
-            </form>
+          <div class="social_icons">
+            <a onclick="return gtag_report_conversion('https://www.instagram.com/ozel_piyano_dersim/');"
+              href="https://www.instagram.com/ozel_piyano_dersim/" target="_blank" aria-label="instagram"
+              class="instagram" rel="noreferrer">
+              <i class="fab fa-instagram fa-4x"></i>
+            </a>
+            <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=905335752410');"
+              href="https://api.whatsapp.com/send?phone=905335752410" target="_blank" aria-label="whatsapp"
+              class="whatsapp" rel="noreferrer">
+              <i class="fab fa-whatsapp-square fa-4x"></i>
+            </a>
           </div>
         </div>
+        <div class="iletisim-box-right">
+          <form id="iletisim-formu">
+            <p>Adınız (Gerekli)</p>
+            <input type="text" name="ad" /><br />
+            <p>E postanız (Gerekli)</p>
+            <input type="email" name="mail" /><br />
+            <p>Mesajınız</p>
+            <textarea name="mesaj" form="iletisim-formu"></textarea><br />
+            <input type="submit" name="gonder" value="Gönder" />
+          </form>
+        </div>
       </div>
+    </div>
 
-      <script>
-        window.addEventListener(
-          "contextmenu",
-          function (e) {
-            // do something here...
-            e.preventDefault();
-          },
-          false
-        );
-      </script>
+    <script>
+      window.addEventListener(
+        "contextmenu",
+        function (e) {
+          // do something here...
+          e.preventDefault();
+        },
+        false
+      );
+    </script>
+    <!-- Script to make phone and whatsapp boxes clickable -->
+    <script>
+      $(".phone-box").click(function () {
+        var url = $(this).find("a").attr("href");
+        gtag_report_conversion_contact(url);
+        return false;
+      });
+      $(".whatsapp-box").click(function () {
+        var url = $(this).find("a").attr("href");
+        gtag_report_conversion_contact(url);
+        return false;
+      });
+    </script>
+  </main>
 
-      <!-- Script to make phone and whatsapp boxes clickable -->
-      <script>
-        $(".phone-box").click(function () {
-          window.location = $(this).find("a").attr("href");
-          return false;
-        });
-        $(".whatsapp-box").click(function () {
-          window.location = $(this).find("a").attr("href");
-          return false;
-        });
-      </script>
-    </main>
 
-    
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    
-    <script src="yt-lazyload.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
 
-    
-  </body>
+  <script src="yt-lazyload.js" defer></script>
+
+
+</body>
+
 </html>
